@@ -1,0 +1,22 @@
+<section class="article-view">
+  <h1>
+    {{ ::vm.post.title }}
+  </h1>
+  <article>
+    {{ ::vm.post.body }}
+  </article>
+  <md-content>
+    <h5>Comments</h5>
+    <md-list>
+      <md-list-item ng-repeat="comment in vm.post.comments track by comment.id" class="md-3-line md-long-text">
+        <img src="https://avatars.githubusercontent.com/u/2829504?v=3" class="md-avatar" alt="{{::comment.email}}" />
+        <div class="md-list-item-text">
+          <h3>{{ ::comment.email }}</h3>
+          <p>
+            {{ ::comment.body }}
+          </p>
+        </div>
+      </md-list-item>
+    </md-list>
+  </md-content>
+</section>

@@ -1,0 +1,28 @@
+<main layout="row" layout-fill class="full-height">
+  <!-- left sidebar -->
+  <md-sidenav class="admin-sidebar-left admin-sidebar-collapsed md-sidenav-left md-whiteframe-z2"
+              md-component-id="left" md-is-locked-open="layout.sideMenuSize !== 'hidden' && $mdMedia('gt-sm')"
+              ui-view="sidebarLeft"
+              ng-class="{hover: vm.isHovered}"
+              ng-mouseover="vm.enterLeftAside()"
+              ng-mouseleave="vm.leaveLeftAside()">
+    <header layout="column">
+      <img ng-src="{{vm.bgTop}}" flex alt="material bg"/>
+    </header>
+    <af-menu></af-menu>
+  </md-sidenav>
+
+  <!-- main content -->
+  <div id="admin-panel" layout="column" flex>
+    <af-loader></af-loader>
+    <md-toolbar class="admin-toolbar" ui-view="toolbar">
+      <af-toolbar></af-toolbar>
+    </md-toolbar>
+
+    <!-- scrollable content -->
+    <md-content ui-view="content" layout="column" flex></md-content>
+  </div>
+
+  <!-- right sidebar -->
+  <md-sidenav layout layout-fill class="md-sidenav-right md-whiteframe-z2" md-component-id="notifications" ui-view="sidebarRight"></md-sidenav>
+</main>

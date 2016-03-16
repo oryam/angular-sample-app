@@ -1,0 +1,8 @@
+{
+  "USERS": {
+    "TITLE": "users",
+    "MENU": "users",
+    "USERUPDATE": "utilisateur mis a jour",
+    "USERERROR": "error utilisateur non mis a jour"
+  }
+}

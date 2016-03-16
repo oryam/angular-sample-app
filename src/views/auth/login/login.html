@@ -1,0 +1,19 @@
+<md-toolbar class="md-hue-3 md-tall md-warn">
+  <span flex></span>
+  <div class="md-toolbar-tools md-toolbar-tools-bottom">
+    <span translate="AUTH.LOGIN.TITLE"></span>
+  </div>
+</md-toolbar>
+<md-content flex layout="column" class="auth-view" layout-padding>
+  <formly-form model="vm.user" fields="vm.loginForm">
+    <md-button class="md-raised" ng-click="vm.login(vm.user)" translate="AUTH.LOGIN.SUBMIT" aria-label="login button"></md-button>
+    <md-button type="button" ng-click="vm.authenticate('github')"  class="md-raised" aria-label="github button">
+      <md-icon md-font-icon="zmdi zmdi-github" style="font-size:2em"></md-icon>
+        {{'AUTH.LOGIN.GITHUB' | translate}}
+    </md-button>
+    <md-button class="md-raised" ui-sref="signup" translate="AUTH.LOGIN.LINK" aria-label="signup button"></md-button>
+  </formly-form>
+
+</md-content>
+
+

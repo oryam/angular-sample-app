@@ -1,0 +1,9 @@
+*.log
+npm-debug.log*
+.idea
+
+coverage
+doc
+dist
+
+node_modules

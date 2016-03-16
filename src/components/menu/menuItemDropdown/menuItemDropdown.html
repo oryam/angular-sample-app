@@ -1,0 +1,11 @@
+<md-button ng-click="vm.toggleDropdownMenu()" class="md-raised md-primary side-menu-link">
+  <md-icon ng-if="::(vm.item.icon !== undefined)" class="side-menu-icon" md-font-icon="{{::vm.item.icon}}"></md-icon>
+  <span translate>{{::vm.item.name}}</span>
+  <md-icon class="menu-toggle-icon" md-font-icon="zmdi zmdi-chevron-right" ng-class="{ open: vm.item.open }"></md-icon>
+</md-button>
+<ul class="drop-down-list" ng-show="vm.item.open">
+  <li ng-repeat="child in vm.item.children track by $index">
+    <af-menu-item-dropdown ng-if="::child.type === 'dropdown'" item="child"></af-menu-item-dropdown>
+    <af-menu-item-link ng-if="::child.type === 'link'" item="child"></af-menu-item-link>
+  </li>
+</ul>

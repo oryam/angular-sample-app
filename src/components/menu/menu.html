@@ -1,0 +1,6 @@
+<ul>
+  <li ng-repeat="item in vm.items">
+    <af-menu-item-dropdown ng-if="::item.type === 'dropdown' && !item.restricted" item="item"></af-menu-item-dropdown>
+    <af-menu-item-link ng-if="::item.type === 'link'" item="item"></af-menu-item-link>
+  </li>
+</ul>

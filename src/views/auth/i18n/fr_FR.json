@@ -1,0 +1,33 @@
+{
+  "AUTH": {
+    "LOGIN": {
+      "TITLE": "Authentification",
+      "MENU": "login",
+      "ERROR": "Une erreur s'est produite",
+      "EMAIL": "adresse email",
+      "PASSWORD": "Mot de passe",
+      "SUBMIT": "Authenfication",
+      "GITHUB": "Authentification avec github",
+      "LINK": "Pas encore membre ?",
+      "VALIDATION": {
+        "PASSWORD": {
+          "PATTERN": "Au mois une maj un chiffre et une minuscule"
+        }
+      }
+    },
+    "SIGNUP": {
+      "TITLE": "Création de compte",
+      "SUBMIT": "Créer un compte",
+      "LINK": "Déja membre ?",
+      "REPEATPASSWORD": "Répétez votre mot de passe",
+      "VALIDATION": {
+        "REPEATPASSWORD": "Les deux mots de passes sont diférents",
+        "UNIQEMAIL": {
+          "PREFIX": "Cet adresse mail : ",
+          "SUFFIX": "est déja prise",
+          "ALTERNATE": "email déja prise"
+        }
+      }
+    }
+  }
+}

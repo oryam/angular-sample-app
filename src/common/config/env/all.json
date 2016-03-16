@@ -1,0 +1,15 @@
+{
+  "crud": {
+    "itemPerPage": 10
+  },
+  "languages": [
+    {
+      "name": "FRENCH",
+      "key": "fr"
+    },
+    {
+      "name": "ENGLISH",
+      "key": "en"
+    }
+  ]
+}

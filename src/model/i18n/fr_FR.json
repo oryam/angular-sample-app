@@ -1,0 +1,20 @@
+{
+  "FORM": {
+    "POST": {
+      "TITLE": "Titre du post",
+      "BODY": "Contenu du post"
+    },
+    "VALIDATION": {
+      "REQUIRED": {
+        "PREFIX": "Le champ",
+        "SUFFIX": "est obligatoire",
+        "ALTERNATE": "requis !!"
+      },
+      "EMAIL": {
+        "PREFIX": "L'adresse email",
+        "SUFFIX": "est invalide",
+        "ALTERNATE": "adresse email invalide !!"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<md-button ng-click="vm.openLink(vm.item)" class="md-primary md-raised side-menu-link" ng-class="{ 'md-hue-1': vm.item.active }">
+  <md-icon ng-if="::(vm.item.icon !== undefined)" class="side-menu-icon" md-font-icon="{{::vm.item.icon}}"></md-icon>
+  <span translate>{{::vm.item.name}}</span>
+</md-button>

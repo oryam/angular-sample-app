@@ -1,0 +1,14 @@
+.users-view {
+  .users-grid {
+    height:300px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .users-view {
+    .users-grid {
+      height:700px;
+    }
+  }
+
+}

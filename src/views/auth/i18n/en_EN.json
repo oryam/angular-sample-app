@@ -1,0 +1,38 @@
+{
+  "AUTH": {
+    "LOGIN": {
+      "TITLE": "login",
+      "MENU": "login",
+      "ERROR": "Something wrong happen",
+      "EMAIL": "email address",
+      "PASSWORD": "password",
+      "SUBMIT": "Login",
+      "GITHUB": "Login with github",
+      "LINK": "NOT a member yet ?",
+      "VALIDATION": {
+        "EMAIL": {
+          "REQUIRED": "Email is required",
+          "EMAIL": "Unvalid email"
+        },
+        "PASSWORD": {
+          "REQUIRED": "Password is required",
+          "PATTERN": "at leat a maj a number and a normal letter"
+        }
+      }
+    },
+    "SIGNUP": {
+      "TITLE": "Account creation form",
+      "SUBMIT": "Create account",
+      "LINK": "Already a member ?",
+      "REPEATPASSWORD": "Repeat your password",
+      "VALIDATION": {
+        "REPEATPASSWORD": "The two passwords are different",
+        "UNIQEMAIL": {
+          "PREFIX": "This email address : ",
+          "SUFFIX": "is already taken",
+          "ALTERNATE": "email already taken"
+        }
+      }
+    }
+  }
+}

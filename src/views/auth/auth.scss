@@ -1,0 +1,15 @@
+.auth-view {
+  md-input-container {
+    height: 77px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .auth-view {
+    text-align:center;
+    padding-left:20%;
+    padding-right:20%;
+    button, a, md-input-container {
+      width: 80%;
+    }
+  }
+}

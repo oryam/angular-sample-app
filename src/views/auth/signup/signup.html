@@ -1,0 +1,13 @@
+<md-toolbar class="md-hue-1 md-tall md-warn">
+  <span flex></span>
+  <div class="md-toolbar-tools md-toolbar-tools-bottom">
+    <span translate="AUTH.SIGNUP.TITLE"></span>
+  </div>
+</md-toolbar>
+<md-content flex layout="column" class="auth-view" layout-padding>
+  <formly-form model="vm.user" fields="vm.signupForm">
+    <md-button class="md-raised" ng-click="vm.signup(vm.user)" translate="AUTH.SIGNUP.SUBMIT" aria-label="login button"></md-button>
+    <md-button class="md-raised" ui-sref="login" translate="AUTH.SIGNUP.LINK" aria-label="signup button"></md-button>
+  </formly-form>
+
+</md-content>

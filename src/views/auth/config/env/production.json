@@ -1,0 +1,9 @@
+{
+  "config": {
+    "baseUrl": "http://localhost:3000/"
+  },
+  "github": {
+    "clientId": "3469f3e9e9287e7dfb6a"
+  }
+}
+

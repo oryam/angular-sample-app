@@ -1,0 +1,6 @@
+{
+  "<%= upCaseFull %>": {
+    "TITLE": "<%= name %>",
+    "MENU": "<%= name %>"
+  }
+}

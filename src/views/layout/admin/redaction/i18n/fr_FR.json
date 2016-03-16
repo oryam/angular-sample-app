@@ -1,0 +1,8 @@
+{
+  "REDACTION": {
+    "TITLE": "redaction",
+    "MENU": "redaction",
+    "POSTCREATION": "Le post a ete correctement creer",
+    "POSTERROR": "Erreur le post na pas ete creer"
+  }
+}

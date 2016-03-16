@@ -1,0 +1,20 @@
+{
+  "FORM": {
+    "POST": {
+      "TITLE": "Post Title",
+      "BODY": "Post content"
+    },
+    "VALIDATION": {
+      "REQUIRED": {
+        "PREFIX": "the field",
+        "SUFFIX": "is required",
+        "ALTERNATE": "required !!"
+      },
+      "EMAIL": {
+        "PREFIX": "The email address",
+        "SUFFIX": "is invalid",
+        "ALTERNATE": "invalid email address"
+      }
+    }
+  }
+}
